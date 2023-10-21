@@ -70,11 +70,38 @@ h1{
 .boxes{
     margin: 8px;
     padding: 24px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
     box-shadow: inset -4px -4px rgba(161, 161, 161, 0.496);
+}
+
+.boxes h6{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(58, 57, 57);
+}
+
+.textbox{
+    margin-bottom: 20px;
+}
+
+#sendBox input[type = text]{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+.name{
+    display: flex;
+}
+
+#sName, #rName{
+    flex: 1;
+    margin-right: 200px;
 }
 
 img{

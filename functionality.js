@@ -89,6 +89,30 @@ form.addEventListener('submit', (event) =>{
     }
 
     //sender portion
+    for(curr of sNameBox){
+        curr.textContent = form.elements['sName'].value;
+    }
+
+    for(curr of sAddrBox){
+        curr.textContent = form.elements['sStrAddress'].value;
+        if(form.elements['sAppartment'].value != ''){
+            curr.textContent += ', ' + form.elements['sAppartment'].value; 
+        }
+    }
+
+    for(curr of sElse){
+        let comma = ', ';
+        if(form.elements['sCity'].value == '' || form.elements['sState'].value == ''){
+            comma = ' ';
+        }
+        curr.textContent = form.elements['sCity'].value + comma + form.elements['sState'].value + ' ' +
+            form.elements['sZip'].value;
+    }
+
+    for(curr of sCountry){
+        curr.textContent = form.elements['sCountry'].value;
+    }
 });
+
 
 

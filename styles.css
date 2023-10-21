@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(105, 218, 255);
+    padding: 24px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#picSec{
+    display: flex;
+}
+
+.imgSelector{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    border-width: 0px;
+}
+
+.picture{
+    position: relative;
+    text-align: center;
+}
+
+.sender{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.receiver{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.selection{
+    font-size: 18px;
+}
+
+#picPost .receiver{
+    left: 25%;
+}
+
+#picPost{
+    display: block;
+}
+
+.boxes{
+    margin: 8px;
+    padding: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset -4px -4px rgba(161, 161, 161, 0.496);
+}
+
+img{
+    height: auto;
+    width: 1000px;
+}

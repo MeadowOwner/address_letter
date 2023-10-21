@@ -13,12 +13,29 @@ h1{
     display: flex;
 }
 
-.imgSelector{
+#selButt{
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    border-width: 0px;
 }
+
+.buttonSel{
+    margin: 5px;
+    height: 3em;
+    width: 10em;
+    font-size: 12px;
+    font-weight: bold;
+    border: solid;
+    border-width: 0px;
+    border-color: orangered;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+.buttonSel#bothButt{
+    border-width: 2px;
+}
+
 
 .picture{
     position: relative;
@@ -63,4 +80,9 @@ h1{
 img{
     height: auto;
     width: 1000px;
+}
+
+.picture{
+    margin: 10px;
+    margin-bottom: 20px;
 }

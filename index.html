@@ -46,18 +46,12 @@
                 </div>
             </div>
 
-            <fieldset class = 'imgSelector'>
-                <div>
-                    <input type = "radio" id = 'envelopeSel' name = 'postSelector'
-                    value = 'envelope' checked />
-                    <label for="envelopeSel" class = 'selection'>Envelope</label>
-                </div>
-                <div>
-                    <input type = "radio" id = 'postcardSel' name = 'postSelector'
-                    value = 'postcard' />
-                    <label for="postSelector" class = 'selection'>Postcard</label>
-                </div>
-            </fieldset>
+            <div id = 'selButt'>
+                <button id = 'envButt' class = 'buttonSel'>Envelope</button>
+                <button id = 'postButt' class = 'buttonSel'>Postcard</button>
+                <button id = 'bothButt' class = 'buttonSel'>Both</button>
+
+            </div>
         </div>
 
 
@@ -124,5 +118,6 @@
 
         <div id = 'writtenTut'></div>
     </div>
+    <script src = 'functionality.js'></script>
 </body>
 </html>

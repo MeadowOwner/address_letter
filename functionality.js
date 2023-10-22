@@ -49,12 +49,12 @@ bothButt.addEventListener('click', clickBoth);
 const rNameBox = document.querySelectorAll('.receiver .fName');
 const rAddrBox = document.querySelectorAll('.receiver .stAddr');
 const rElse = document.querySelectorAll('.receiver .ciStZi');
-const rCountry = document.querySelectorAll('.receiver .country');
+const rCountry = document.querySelectorAll('.receiver .countryB');
 
 const sNameBox = document.querySelectorAll('.sender .fName');
 const sAddrBox = document.querySelectorAll('.sender .stAddr');
 const sElse = document.querySelectorAll('.sender .ciStZi');
-const sCountry = document.querySelectorAll('.sender .country');
+const sCountry = document.querySelectorAll('.sender .countryB');
 
 
 const form = document.getElementById('info');

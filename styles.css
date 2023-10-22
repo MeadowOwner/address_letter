@@ -72,7 +72,7 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
     padding: 24px;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 50px;
     border: solid;
     border-width: 1px;
@@ -102,13 +102,23 @@ input[type = text]{
     border-bottom-color: black;
 }
 
-.name{
+.name, .address, .appartment, .city, .country{
     display: flex;
 }
 
-#sName, #rName{
+#sName, #rName, #sAppartment, #rAppartment{
+    flex: 1;
+    margin-right: 550px;
+}
+
+#rStrAddress, #sStrAddress{
     flex: 1;
     margin-right: 500px;
+}
+
+#rCity, #sCity, #rCountry, #sCountry{
+    flex:1;
+    margin-right: 700px;
 }
 
 img{
